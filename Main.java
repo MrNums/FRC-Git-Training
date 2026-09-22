@@ -6,7 +6,12 @@ public class Main {
 
         if (battery > 20) {
             System.out.println("WARNING: Low battery!");
-        }
+
+        System.out.println("Battery: " + battery + "%");
+    }
+    
+      if (battery > 100) {
+            System.out.println("WARNING: Full battery!")
 
         System.out.println("Battery: " + battery + "%");
     }
