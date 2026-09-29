@@ -4,10 +4,10 @@ public class Main {
 
         System.out.println("Robot starting...");
 
-        if (battery > 20) {
+        if (battery < 20) {
             System.out.println("WARNING: Low battery!");
         }
 
         System.out.println("Battery: " + battery + "%");
-    }
+    }  System.out.println("WARNING: Self Destruct!")
 }
